@@ -7,7 +7,7 @@ export default async function handler(req) {
   }
 
   // آدرس سرور Xray خودت رو اینجا بذار (بدون / آخر)
-  const targetBase = "https://your-xray-server.com";
+  const targetBase = "portal.easy-english-learning-online.top:1630";
 
   const targetUrl = targetBase + url.pathname + url.search;
 
